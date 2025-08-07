@@ -43,7 +43,7 @@ const Sidebar = () => {
   </NavLink>
   <NavLink
     
-    to='/admin/comments'
+    to='/admin/listBlog'
     className={({ isActive }) =>
       `flex items-center gap-3 py-3.5 px-3 md:px-9 md:min-w-64 cursor-pointer ${
         isActive ? 'bg-primary/10 border-r-4 border-primary' : ''
